@@ -1,1 +1,1 @@
-<img src='streamlit.jpg' width='70%'>
+<img src='streamlit.jpg' width='60%'>

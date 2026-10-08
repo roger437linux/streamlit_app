@@ -5,13 +5,13 @@
 **SUPABASE_URL="PATH 1"**<br>
 **SUPABASE_KEY="PATH 2"**
 
-### PATH 1:
+### PATH 1
 * Connection button
 * Framework [Python - Flask]
 * .env
 * SUPABASE_URL
 
-### PATH 2:
+### PATH 2
 * Project Settings
 * API Keys [Menu]
 * Secret keys [default]  

@@ -1,3 +1,5 @@
+<img src='streamlit.jpg' width='50%'><br><br>
+
 ```mermaid
 erDiagram
     CLIENTES ||--o{ PEDIDOS : faz
@@ -46,4 +48,4 @@ erDiagram
     }
 ```
 
-<img src='streamlit.jpg' width='60%'><br>
+

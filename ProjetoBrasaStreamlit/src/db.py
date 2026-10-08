@@ -5,7 +5,7 @@ import re
 from sqlalchemy import create_engine, text
 from urllib.parse import quote_plus
 
-SERVIDOR = r"D08S22-1251878\SQLEXPRESSTUX"
+SERVIDOR = r"localhost"
 BANCO = "hamburgueria"
 DRIVER = "ODBC Driver 18 for SQL Server"
 

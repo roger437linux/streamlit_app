@@ -1,19 +1,23 @@
 <img src='streamlit.jpg' width='60%'>
 
+<br>
 ## Dentro de .streamlit criar arquivo secrets.toml com conteúdo:
 
-**SUPABASE_URL='<PATH: 1>'**<br>
-**SUPABASE_KEY='<PATH: 2>'**
+<br>
+**SUPABASE_URL="PATH 1"**<br>
+**SUPABASE_KEY="PATH 2"**
 
 
 ### PATH 1:
 * Connection button
 * Framework [Python - Flask]
-* .env -> SUPABASE_UR
+* .env
+* SUPABASE_URL
 
 ### PATH 2:
 * Project Settings
 * API Keys [Menu]
 * Secret keys [default]  
 
-<img src='https://talent500.com/blog/wp-content/uploads/sites/42/2025/05/SupaBase.png' width='50%'>
+<br><br>
+<img src='https://talent500.com/blog/wp-content/uploads/sites/42/2025/05/SupaBase.png' width='70%'>

@@ -2,8 +2,8 @@
 
 ## Dentro de .streamlit criar arquivo secrets.toml com conteúdo:
 
-> SUPABASE_URL='<PATH: 1>'<br>
-> SUPABASE_KEY='<PATH: 2>'
+**SUPABASE_URL='<PATH: 1>'**<br>
+**SUPABASE_KEY='<PATH: 2>'**
 
 
 ### PATH 1:
@@ -16,5 +16,4 @@
 * API Keys [Menu]
 * Secret keys [default]  
 
-<img src='https://talent500.com/blog/wp-content/uploads/sites/42/2025/05/SupaBase.png' width='30%'>
-
+<img src='https://talent500.com/blog/wp-content/uploads/sites/42/2025/05/SupaBase.png' width='50%'>

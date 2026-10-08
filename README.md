@@ -1,20 +1,49 @@
+```mermaid
+erDiagram
+    CLIENTES ||--o{ PEDIDOS : faz
+    ENTREGADORES o|--o{ PEDIDOS : entrega
+    PEDIDOS ||--|{ ITENSPEDIDO : contem
+    PRODUTOS ||--o{ ITENSPEDIDO : aparece_em
+
+    CLIENTES {
+        int IdCliente PK
+        varchar Nome
+        varchar Bairro
+        varchar Telefone
+        date DataCadastro
+    }
+
+    ENTREGADORES {
+        int IdEntregador PK
+        varchar Nome
+        varchar Veiculo
+        date DataContratacao
+    }
+
+    PEDIDOS {
+        int IdPedido PK
+        int IdCliente FK
+        int IdEntregador FK "NULL se retirada"
+        date DataPedido
+        varchar TipoEntrega
+        varchar Status
+        decimal TaxaEntrega
+        tinyint Avaliacao "NULL se nao avaliou"
+    }
+
+    PRODUTOS {
+        int IdProduto PK
+        varchar NomeProduto
+        varchar Categoria
+        decimal Preco
+    }
+
+    ITENSPEDIDO {
+        int IdPedido PK, FK
+        int IdProduto PK, FK
+        int Quantidade
+        decimal PrecoUnitario
+    }
+```
+
 <img src='streamlit.jpg' width='60%'><br>
-
-## Dentro do diretório _.streamlit_ criar arquivo secrets.toml com conteúdo:<br>
-
-**SUPABASE_URL="PATH 1"**<br>
-**SUPABASE_KEY="PATH 2"**
-
-### PATH 1
-* Connection button
-* Framework [Python - Flask]
-* .env
-* SUPABASE_URL
-
-### PATH 2
-* Project Settings
-* API Keys [Menu]
-* Secret keys [default]  
-
-<br><br>
-<img src='https://talent500.com/blog/wp-content/uploads/sites/42/2025/05/SupaBase.png' width='60%'>

@@ -1,8 +1,7 @@
 <img src='streamlit.jpg' width='60%'><br>
 
-## Dentro de .streamlit criar arquivo secrets.toml com conteúdo:
+## Dentro de .streamlit criar arquivo secrets.toml com conteúdo:<br>
 
-<br>
 **SUPABASE_URL="PATH 1"**<br>
 **SUPABASE_KEY="PATH 2"**
 

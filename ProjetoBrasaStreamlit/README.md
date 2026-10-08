@@ -1,4 +1,4 @@
-<img src='https://leoandrade.net/wp-content/uploads/2023/04/supabase.jpg' width='40%'><br><br>
+<img src='https://leoandrade.net/wp-content/uploads/2023/04/supabase.jpg' width='50%'>
 
 ## Dentro do diretório _.streamlit_ criar arquivo _secrets.toml_ com conteúdo:<br>
 

@@ -1,4 +1,4 @@
-<img src='streamlit.jpg' width='50%'><br><br>
+<center><img src='streamlit.jpg' width='40%'></center><br><br><br>
 
 ```mermaid
 erDiagram
